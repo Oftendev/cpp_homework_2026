@@ -5,8 +5,8 @@ QuadEquation::QuadEquation(double a, double b, double c) : a(a), b(b), c(c) {}
 
 std::vector<double> QuadEquation::solve() const{
     std::vector<double> roots;
-    if (a == 0.0){
-        if (b != 0.0){
+    if (fabs(a) < EPS){
+        if (fabs(b) >= EPS){
             roots.push_back(-c / b);
         }
         return roots;
