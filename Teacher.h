@@ -14,7 +14,7 @@ private:
     std::queue<Email> emailQueue;
     std::map<std::string, int> gradeTable;
 public:
-    Teacher();
+    Teacher() = default;
 
     void addEmail(const QuadEquation& eq, Student* student);
 

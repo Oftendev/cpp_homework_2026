@@ -1,7 +1,5 @@
 #include "Teacher.h"
 
-Teacher::Teacher() {}
-
 void Teacher::addEmail(const QuadEquation& eq, Student* student){
     Email email(eq, student);
     emailQueue.push(email);
