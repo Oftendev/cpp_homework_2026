@@ -38,7 +38,7 @@ int main() {
     students.push_back(new AverageStudent("Мухамадиев Карим", 0.3));
     students.push_back(new BadStudent("Васильев Дмитрий"));
     students.push_back(new BadStudent("Морозова Анна"));
-    std::vector<QuadEquation> equations = readEquationsFromFile("equations.txt");
+    std::vector<QuadEquation> equations = readEquationsFromFile(PATH_TO_DATA "equations.txt");
     
     if (equations.empty()) {
         std::cout << "Нет уравнений" << std::endl;
