@@ -17,15 +17,5 @@ class QuadEquation{
         bool checkSolution(const std::vector<double>& solution) const;
 
         void print() const;
-    
-        double getA() const{
-            return a; 
-        }
-        double getB() const{
-            return b;
-        }
-        double getC() const{
-            return c;
-        }
 };
 #endif
