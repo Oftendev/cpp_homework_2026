@@ -1,3 +1,11 @@
+# --- CMake и сборка ---
+build/                
+.cache/                 
+CMakeCache.txt          
+CMakeFiles/            
+Makefile              
+*.cmake                 
+install_manifest.txt
 # Prerequisites
 *.d
 
