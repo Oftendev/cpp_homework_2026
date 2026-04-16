@@ -62,4 +62,5 @@ int main() {
         delete s;
     }
     return 0;
+    teacher.clearQueue();
 }
